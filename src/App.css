@@ -1,0 +1,52 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dataHolder {
+  width: 400px;
+  height: 600px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.dataHolderSection {
+  width: 95%;
+  height: 30%;
+}
+
+.dataHolderSection {
+}
+
+.dataAnalysis {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.dataAnalysis > div {
+  width: 30%;
+}
+
+#bitcoinHistoricalDataHolder {
+  width: 100%;
+  height: 75%;
+  overflow-y: auto;
+}
+
+.historicalDataPoint {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.historicalDataPoint > div {
+  width: 40%;
+}
